@@ -794,9 +794,13 @@ ul {
   }
   .contactbtn{
     width: 100%;
+    display: flex;
+    justify-content: center;
   }
   .submitButton{
     width: 34%;
+    display: flex;
+    justify-content: center;
   }
   footer{
     padding: 1rem 1rem;
@@ -845,6 +849,8 @@ ul {
   }
   .getStarted{
     width: 46.6%;
+    display: flex;
+    justify-content: center;
   }
   .navLogoC{
     margin-bottom: 16px;
