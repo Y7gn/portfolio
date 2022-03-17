@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style2.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="icon" href="./img/mkhTitle.png" type="image/x-icon" sizes="40x32">
+  <title>MKH</title>
+
+
+</head>
+
+<body>
+
+  <nav id="imNav">
+    <aside style="display:flex;">
+      <div class="navLogoC">
+        <a class="navLogoLink" href="#">
+          <img width="100%" class="navLogo" src="./img/mkhLogo.png" alt="Logo">
+        </a>
+      </div>
+      <li class="navListItemMore ResponsiveMenuButton">
+        <button class="btn">
+          <a href="javascript:void(0);" onclick="NavFunction()" class="navLink" href="#Contacts" style="font-size: 2.2rem; font-weight:400 "><i class="fa-solid fa-bars"></i></a>
+        </button>
+      </li>
+    </aside>
+
+    <ul class="navList"id="myTopnav">
+      
+      <li class="navListItem">
+        <a class="navLink " href=""><span class="wrapper"><span class="first darkcolor">Home</span> <span class="second">Home</span></a>
+      </li>
+      <li class="navListItem">
+        <a class="navLink " href="#aboutMe"><span class="wrapper"><span class="first darkcolor">About</span> <span class="second">About</span></a>
+      </li>
+      <li class="navListItem">
+        <a class="navLink " href="#services"><span class="wrapper"><span class="first darkcolor">Service</span> <span class="second">Service</span></a>
+      </li>
+      <li class="navListItem">
+        <a class="navLink " href="#portolio"><span class="wrapper"><span class="first darkcolor">Portolio</span> <span class="second">Portolio</span></a>
+      </li>
+      <li class="navListItem">
+        <a class="navLink " href="#testimonials"><span class="wrapper"><span class="first darkcolor">Testimonials</span> <span class="second">Testimonials</span></a>
+      </li>
+      <li class="navListItem">
+        <button class="btn w-btn contactbtn">
+          <a class="navLink" href="#Contacts" style="font-size: 1.2rem; font-weight:400"><span class="wrapper"><span class="first">Contact</span> <span class="second">Contact</span></a>
+        </button>
+      </li>
+      
+    </ul>
+    <!-- <div class="dropDownMenu">
+      <ul class="dropDownInner">
+        <li class="navListItemOne">
+          <a class="navLinkOne " href="">Home</a>
+        </li>
+        <li class="navListItemOne">
+          <a class="navLinkOne " href="#aboutMe"><span class="wrapper">About</a>
+        </li>
+        <li class="navListItemOne">
+          <a class="navLinkOne " href="#services">Service</a>
+        </li>
+        <li class="navListItemOne">
+          <a class="navLinkOne " href="#portolio">Portolio</a>
+        </li>
+        <li class="navListItemOne">
+          <a class="navLinkOne " href="#testimonials">Testimonials</a>
+        </li>
+      </ul>
+    </div> -->
+  </nav>
+  <!-- /* -----------HEADER--------------- */ -->
+
+  <header>
+    <div class="headerContainer">
+      <div style="color:#fff" class="headerContent">
+        <h2 style="font-size:2rem; font-weight:400;">Hi! I'm Mohamad</h2>
+        <h1 class="headerMainText">Video Editor <br><span style="color:#D6002F">Based In Turkey.</span>
+        </h1>
+        <p class="firstLorem"style="color:var(--dark-color);font-size:1.5rem;line-height:1.6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius minima ratione odio cupiditate illum earum quaerat quam modi architecto aspernatur.</p>
+        <button class="btn w-btn getStarted">
+          <a class="btn navLink" href="#aboutMe" style="padding: 1.2rem;"><span class="wrapper getstartedwrapper"><span class="first linkgetStarted">Get Started</span> <span class="second linkgetStarted">Get Started</span></span></a>
+        </button>
+      </div>
+    </div>
+    <div id="aboutMe"></div>
+  </header>
+
+  <section id="aboutMe">
+    <div class="aboutMeHeader">
+      <p class="sectionHeader">
+        About Me
+      </p>
+      <p class="sectionTitle">
+        About Me
+      </p>
+      <p class="AltColor sectionText">
+        Lorem ipsum dolor sit amet consectetur adipisicing <br>elit. Voluptatibus?
+      </p>
+    </div>
+    <div class="aboutMeBody">
+
+      <div class="aboutMeImg">
+        <img width="100%" src="./img/Mkh.jpg" alt="">
+      </div>
+
+      <div class="aboutMeContent">
+        <div class="hiThere">
+          <h3 style="color:#fff; font-size:2.8rem;padding-bottom:1rem;">Hi There!</h3>
+          <p class="AltColor Imaneditor">I'm an editor and huge web designer & front‑end developer focused on crafting clean & user‑friendly experiences, I am passionate about building excellent software that improves the lives of those around me.</p>
+        </div>
+        <hr style="background-color:gray;height:1px;border:none;">
+        <div class="personelInfos">
+          <p class="PERSONALINFOS">PERSONAL INFOS</p>
+          <div class="personalContent">
+            <div class="personalLeft">
+              <ul class="personalInfosUL">
+                <li class="infosList">
+                  <p class="personalAboutText">name: <span class="spaninfos">Mohammed</span></p>
+                </li>
+                <li class="infosList">
+                  <p class="personalAboutText">age: <span class="spaninfos">19</span></p>
+                </li>
+                <li class="infosList">
+                  <p class="personalAboutText">nationalily: <span class="spaninfos">Syria</span></p>
+                </li>
+                <li class="infosList">
+                  <p class="personalAboutText">freelance: <span class="spaninfos">Available</span></p>
+                </li>
+              </ul>
+            </div>
+            <div class="personalRight">
+              <ul class="personalInfosUL">
+                <li class="infosList">
+                  <p class="personalAboutText">Adress: <span class="spaninfos">Turkey-Basaksehir</span></p>
+                </li>
+                <li class="infosList">
+                  <p class="personalAboutText">
+                    Phone:
+                    <span class="spaninfos">+90 531 342 1774</span>
+                  </p>
+                </li>
+                <li class="infosList">
+                  <p class="personalAboutText">Email: <span class="spaninfos">malekkhodary@hotmail.com</span></p>
+                </li>
+                <li class="infosList">
+                  <p class="personalAboutText">Language: <span class="spaninfos">English,Arabic</span></p>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <button class="btn o-btn" style="margin-top:3rem padding">
+            <a class="downloadCvLink"href="#">Download CV</a>
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- /* -----------Skills--------------- */ -->
+
+  <section class="skillEducation">
+    <div class="skillEducationHeader">
+      <h2 style="text-align:center"class="sectionTitle">Skill & Education</h2>
+    </div>
+
+    <div class="skillEducationBody">
+      <div class="skills">
+        <p class="skillTitle">
+          SKILLS
+        </p>
+        <ul class="skillBody">
+          <li class="skillItem">
+            <p class="skillWord">Web Design</p>
+            <div class="rangeBg">
+              <div class="rangeContent0"></div>
+            </div>
+          </li>
+          <li class="skillItem">
+            <p class="skillWord">After Effects</p>
+            <div class="rangeBg">
+              <div class="rangeContent1"></div>
+            </div>
+          </li>
+          <li class="skillItem">
+            <p class="skillWord">Html & Css</p>
+            <div class="rangeBg">
+              <div class="rangeContent2"></div>
+            </div>
+          </li>
+          <li class="skillItem">
+            <p class="skillWord">JavaScript</p>
+            <div class="rangeBg">
+              <div class="rangeContent3"></div>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+      <div class="education">
+        <p class="skillTitle">
+          EDUCATOIN
+        </p>
+        <div class="educationBody">
+          <ul class="educationList">
+            <li class="EducationUniv">
+              <p>
+                BSc In CSE
+                <span class="AltColor uniName">- ABC University, Los Angeles, CA </span>
+              </p>
+              <p>2012</p>
+            </li>
+            <li class="EducationUniv">
+              <p>Computer Science <span class="AltColor uniName"> - Gamma Technical Institute </span>
+              </p>
+              <p>2009</p>
+            </li>
+            <li class="EducationUniv">
+              <p>Graphic Designer
+                <span class="AltColor uniName"> - ABC Institute, Los Angeles, CA</span>
+              </p>
+              <p  id="services">2007</p>
+            </li>
+
+          </ul>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="servicesbir">
+<div class="servicesall">
+    <div class="servicesHeader">
+      <p class="sectionHeader">
+        Services
+      </p>
+      <p class="sectionTitleBig">
+        I provide wide range
+        <br>
+        of digital services
+      </p>
+      <p class="sectionTextBig">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        <br>
+        Amet, egestas. Id fermentum nullam ipsum massa.
+      </p>
+    </div>
+    <div class="servicesBody">
+      <div class="servicesCard">
+        <div class="servicesCardContainer">
+          <div class="servicesIcon">
+            <img width="100%" src="img/webDesign.png" alt="">
+          </div>
+          <p class="servicesName">Motion Graphic</p>
+          <p>
+            <a class="AltColor" href="#">Learn More</a>
+          </p>
+        </div>
+      </div>
+      <div class="servicesCard">
+        <div class="servicesCardContainer">
+          <div class="servicesIcon">
+            <img width="100%" src="img/graphicDesign.png" alt="">
+          </div>
+          <p class="servicesName">Motion Graphic</p>
+          <p>
+            <a class="AltColor" href="#">Learn More</a>
+          </p>
+        </div>
+      </div>
+      <div class="servicesCard">
+        <div class="servicesCardContainer">
+          <div class="servicesIcon">
+            <img width="100%" src="img/videoEditing.png" alt="">
+          </div>
+          <p class="servicesName">Motion Graphic</p>
+          <p>
+            <a class="AltColor" href="#">Learn More</a>
+          </p>
+        </div>
+      </div>
+      <div class="servicesCard">
+        <div class="servicesCardContainer">
+          <div class="servicesIcon">
+            <img width="100%" src="img/webProg.png" alt="">
+          </div>
+          <p class="servicesName">Motion Graphic</p>
+          <p>
+            <a class="AltColor" href="#">Learn More</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  </section>
+
+  <section id="portolio">
+    <div class="portoliosHeader">
+      <p class="sectionHeader">
+        Portfolio
+      </p>
+      <p class="sectionTitleBig">
+        Recent Projects
+      </p>
+      <p class="sectionText">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        <br>
+        Amet, egestas. Id fermentum nullam ipsum massa.
+      </p>
+    </div>
+    <div class="portfolioBody overlay">
+      <div class="portfolioCard ">
+        <div class="portfolioCardContainer">
+          <div class="portfolioImg">
+            <img width="100%" src="./img/ig1.jpg" alt="">
+            <p class="likescomments"><span class="likes">Likes</span> <span class="Comments">Comments</span></p>
+            
+          </div>
+        </div>
+      </div>
+      <div class="portfolioCard ">
+        <div class="portfolioCardContainer">
+          <div class="portfolioImg">
+            <img width="100%" src="./img/ig2.jpg" alt="">
+            <p class="likescomments"><span class="likes">Likes</span> <span class="Comments">Comments</span></p>
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="portfolioCard">
+        <div class="portfolioCardContainer">
+          <div class="portfolioImg">
+            <img width="100%" src="./img/ig3.jpg" alt="">
+            <p class="likescomments"><span class="likes">Likes</span> <span class="Comments">Comments</span></p>
+
+          </div>
+        </div>
+      </div>
+      <div class="portfolioCard">
+        <div class="portfolioCardContainer">
+          <div class="portfolioImg">
+            <img width="100%" src="./img/ig4.jpg" alt="">
+            <p class="likescomments"><span class="likes">Likes</span> <span class="Comments">Comments</span></p>
+
+          </div>
+        </div>
+      </div>
+      <div class="portfolioCard">
+        <div class="portfolioCardContainer">
+          <div class="portfolioImg">
+            <img width="100%" src="./img/ig5.jpg" alt="">
+            <p class="likescomments"><span class="likes">Likes</span> <span class="Comments">Comments</span></p>
+
+          </div>
+        </div>
+      </div>
+      <div class="portfolioCard">
+        <div class="portfolioCardContainer">
+          <div class="portfolioImg">
+            <img width="100%" src="./img/ig6.jpg" alt="">
+            <p class="likescomments"><span class="likes">Likes</span> <span class="Comments">Comments</span></p>
+          </div>
+          <div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="testimonials"></div>
+  </section>
+
+
+  <section >
+    <div class="testimonialssHeader">
+      <p class="sectionHeader">
+        Testimonials
+      </p>
+      <p class="sectionTitle">
+        What's Clients Say.
+      </p>
+      <p class="sectionText">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet,
+        <br>
+        egestas. Id fermentum nullam ipsum massa.
+      </p>
+    </div>
+    <div class="testimonialsBody">
+      <div class="c_testimonialsBody">
+        <div style="padding-top:20px" class="testimonialsItem">
+          <div class="testContainter">
+            <div class="left">
+              <img width="100%" src="./img/mahmut.jpeg" alt="hey">
+            </div>
+            <div class="right">
+              <p class="rightText AltColor">This is outstanding work. Everything I needed to do has been done by the makers. I really like this template and more importantly my clients are blown away byit.</p>
+
+              <div class="testPerson">
+                <div class="testPeronAbout">
+                  <p>Mahmoud Nadim</p>
+                  <p>Web Developer</p>
+                </div>
+
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+
+        <!-- -------------------- -->
+
+        <div style="padding-top:20px" class="testimonialsItem">
+          <div class="testContainter">
+            <div class="left">
+              <img width="100%" src="./img/testimonials_2.jpg" alt="hey">
+            </div>
+            <div class="right">
+              <p class="rightText AltColor">This is outstanding work. Everything I needed to do has been done by the makers. I really like this template and more importantly my clients are blown away byit.</p>
+
+              <div class="testPerson">
+                <div class="testPeronAbout">
+                  <p>Mahmoud Nadim</p>
+                  <p>Web Developer</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- -------------------- -->
+
+        <!-- <div>
+          <div class="test1">
+            <div style="padding-top:20px" class="testimonialsItem">
+              <div class="testContainter">
+                <div class="left">
+                  <img width="100%" src="./img/testimonials_2.jpg" alt="">
+                </div>
+                <div class="right">
+                  <p class="rightText AltColor">This is outstanding work. Everything I needed to do has been done by the
+                    makers. I really like this template and more importantly my clients are blown away byit.</p>
+
+                  <div class="testPerson">
+                    <div class="testPeronAbout">
+                      <p>Mahmoud Nadim</p>
+                      <p>Web Developer</p>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div> -->
+  </section>
+
+
+  <section id="Contacts" style="margin-bottom: 7rem;">
+
+    <div class="ContactsContainer">
+      <div class="contactAbout">
+        <div class="testimonialssHeadertwo">
+          <p class="sectionHeader" style="display: flex;">
+            Contact
+          </p>
+          <p class="sectionTitleBig">
+            Let's discuss <br> your project
+          </p>
+        </div>
+
+        <div class="contactInfos">
+          <ul class="infosContainer">
+
+            <li class="co-201">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                class="svg replaced-svg">
+                <path d="M23 7V1H17" stroke="#D6002F" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M16 8L23 1" stroke="#D6002F" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path
+                  d="M22 16.9201V19.9201C22.0011 20.1986 21.9441 20.4743 21.8325 20.7294C21.7209 20.9846 21.5573 21.2137 21.3521 21.402C21.1469 21.5902 20.9046 21.7336 20.6408 21.8228C20.3769 21.912 20.0974 21.9452 19.82 21.9201C16.7428 21.5857 13.787 20.5342 11.19 18.8501C8.77383 17.3148 6.72534 15.2663 5.19 12.8501C3.49998 10.2413 2.44824 7.27109 2.12 4.1801C2.09501 3.90356 2.12788 3.62486 2.2165 3.36172C2.30513 3.09859 2.44757 2.85679 2.63477 2.65172C2.82196 2.44665 3.04981 2.28281 3.30379 2.17062C3.55778 2.05843 3.83234 2.00036 4.11 2.0001H7.11C7.59531 1.99532 8.06579 2.16718 8.43376 2.48363C8.80173 2.80008 9.04208 3.23954 9.11 3.7201C9.23662 4.68016 9.47145 5.62282 9.81 6.5301C9.94455 6.88802 9.97366 7.27701 9.89391 7.65098C9.81415 8.02494 9.62886 8.36821 9.36 8.6401L8.09 9.9101C9.51356 12.4136 11.5865 14.4865 14.09 15.9101L15.36 14.6401C15.6319 14.3712 15.9752 14.1859 16.3491 14.1062C16.7231 14.0264 17.1121 14.0556 17.47 14.1901C18.3773 14.5286 19.3199 14.7635 20.28 14.8901C20.7658 14.9586 21.2094 15.2033 21.5265 15.5776C21.8437 15.9519 22.0122 16.4297 22 16.9201Z"
+                  stroke="#D6002F" stroke-linecap="round" stroke-linejoin="round"></path>
+              </svg>
+              <span class="infoSpans">+90 531 342 1774</span>
+
+
+            </li>
+
+            <li class="co-201">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                class="svg replaced-svg">
+                <path d="M4 4H20C21.1 4 22 4.9 22 6V18C22 19.1 21.1 20 20 20H4C2.9 20 2 19.1 2 18V6C2 4.9 2.9 4 4 4Z"
+                  stroke="#D6002F" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M22 6L12 13L2 6" stroke="#D6002F" stroke-linecap="round" stroke-linejoin="round"></path>
+              </svg>
+              <span class="infoSpans">malekkhodary@hotmail.com</span>
+            </li>
+
+            <li class="co-201">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                class="svg replaced-svg">
+                <path
+                  d="M21 10C21 17 12 23 12 23C12 23 3 17 3 10C3 7.61305 3.94821 5.32387 5.63604 3.63604C7.32387 1.94821 9.61305 1 12 1C14.3869 1 16.6761 1.94821 18.364 3.63604C20.0518 5.32387 21 7.61305 21 10Z"
+                  stroke="#D6002F" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path
+                  d="M12 13C13.6569 13 15 11.6569 15 10C15 8.34315 13.6569 7 12 7C10.3431 7 9 8.34315 9 10C9 11.6569 10.3431 13 12 13Z"
+                  stroke="#D6002F" stroke-linecap="round" stroke-linejoin="round"></path>
+              </svg>
+              <span class="infoSpans">Turkey,Istanbul,Basaksehir</span>
+
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- ------------------------------- -->
+      <div class="contactForm">
+        <div class="formText">
+          <p class="AltColor rightcontactmains">I'm always open to discussing product</p>
+          <p class="fw-300 rightcontactmains">design work or partnerships.</p>
+        </div>
+        <form action="https://formsubmit.co/malekkhodary@hotmail.com" method="POST">
+          <input type="text" name="name"class="w-100" placeholder="Enter Name" required>
+          <div class="inputDouble">
+            <!-- <input style="margin-right:10px;" type="email" class="w-50" placeholder="Email" required> -->
+            <input class="w-50"type="email" style="margin-right:10px;" name="email" placeholder="Email Address" required>
+            <input type="hidden" name="_next" value="Mkh Web Page\thankyou.html">
+
+            <!-- <input type="hidden" name="_subject" value="New submission!"> -->
+            <input type="text" name="_subject"class="w-50" placeholder="Subject" required>
+            <input type="hidden" name="_captcha" value="false">
+          </div>
+          <input type="text" name="message"class="w-100" placeholder="Message" required>
+          <input type="hidden" name="_next" value="https://thankyoulove.y7gn.repl.co/">
+
+          <button class="btn w-btn contactbtn submitButton" type="submit">
+            <a class="navLink submitbutton"style="font-size: 1.2rem; font-weight:400"><span class="wrapper"><span class="first">Send</span> <span class="second">Submit</span></span></a>
+          </button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+
+  <footer>
+    <div class="footerContainer">
+      <p>Copyright © 2021. All rights are reserved</p>
+      <a href="#">
+        <button class="btn o-btn ScrollUpButton">
+
+          <i class="fas fa-angle-up"></i>
+
+        </button>
+      </a>
+    </div>
+  </footer>
+  <!-- <form action="https://formsubmit.co/malekkhodary@hotmail.com" method="POST">
+    <input type="email" name="email" placeholder="Email Address" required>
+    <input type="hidden" name="_next" value="Mkh Web Page\thankyou.html">
+    <input type="email" name="email" placeholder="Email Adress" required>
+
+  </form>
+ -->
+
+
+  <script src="script.js"></script>
+</body>
+
+</html>
