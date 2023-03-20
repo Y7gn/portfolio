@@ -1,6 +1,32 @@
 /* ---------------------------------------------------------------- */
 .AltColor {
   color: #A9AFC3;
+}button:hover .first {
+  color: #d6002f;
+  top: -100%;
+}
+
+button:hover .second {
+  color: #d6002f;
+  top: 0%;
+}
+
+li:hover .first {
+  color: #d6002f;
+  top: -100%;
+}
+
+li:hover .second {
+  color: #d6002f;
+  top: 0%;
+}
+
+.navLink:hover {
+  color: #d6002f;
+}
+
+.w-btn:hover {
+  border-color: #d6002f;
 }
 
 ul {
@@ -162,9 +188,9 @@ nav {
 
 .first {
   position: relative;
-  -webkit-transition: all ease 0.18s;
-  transition: all ease 0.18s;
-  top: 0%;
+/*   -webkit-transition: all ease 0.18s; */
+/*   transition: all ease 0.18s; */
+/*   top: 0%; */
 }
 
 .second {
