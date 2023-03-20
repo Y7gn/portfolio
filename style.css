@@ -3,22 +3,22 @@
   color: #A9AFC3;
 }button:hover .first {
   color: #d6002f;
-  top: -100%;
+/*   top: -100%; */
 }
 
 button:hover .second {
   color: #d6002f;
-  top: 0%;
+/*   top: 0%; */
 }
 
 li:hover .first {
   color: #d6002f;
-  top: -100%;
+/*   top: -100%; */
 }
 
 li:hover .second {
   color: #d6002f;
-  top: 0%;
+/*   top: 0%; */
 }
 
 .navLink:hover {
